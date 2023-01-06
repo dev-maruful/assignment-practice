@@ -9,6 +9,7 @@ header {
 
     background-image:url(../images/donation9.jpg);
     background-blend-mode: exclusion;
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -89,8 +90,48 @@ section input{
     color: #B3B3B3;
 }
 
-section .btn-section{
+.btn-main{
     text-align: center;
     margin-top: 30px;
     margin-left: 60px;
 }
+
+.plan-items{
+    display: flex;
+    margin: 50px 160px 130px;
+    justify-content: space-between;
+    gap: 25px;
+    
+}
+
+.plan-items .img{
+    margin-bottom: 500px;
+}
+
+.plan-items .plan-title{
+    margin-bottom: 15px;
+}
+
+.plan-item1{
+    background: rgba(79, 157, 166, 0.1);
+    padding: 23px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+}
+
+.plan-item2{
+    background: rgba(255, 89, 89, 0.1);
+    padding: 23px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+}
+.plan-item3{
+    background: rgba(175, 184, 94, 0.1);
+    padding: 23px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+}
+.plan-items .plan-description{
+    color: #707070;
+}
+
