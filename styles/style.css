@@ -36,7 +36,7 @@ header {
     background: #FF5959;
     border-radius: 10px;
     color: white;
-    padding: 16px 12px;
+    padding: 12px 12px;
     border: 2px solid transparent;
     cursor: pointer;
     font-weight: bold;
@@ -71,4 +71,26 @@ header {
     color: #FF5959;
     border: 2px solid #FF5959;
     border-radius: 5px;
+}
+section form{
+    text-align: center;
+}
+.btn-input{
+    text-align: center;
+}
+section input{
+    border: none;
+    border-bottom: 2px solid #DADADA;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 0 625px;
+    font-weight: 400;
+    color: #B3B3B3;
+}
+
+section .btn-section{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 60px;
 }
