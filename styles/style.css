@@ -41,3 +41,34 @@ header {
     cursor: pointer;
     font-weight: bold;
 }
+.content-text{
+    margin-top: 130px;
+    text-align: center;
+}
+.content-text h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.content-text p{
+    margin-bottom: 50px;
+    color: #707070;
+}
+.content-taka{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 300px;
+    margin-bottom: 60px;
+}
+.content-taka h1{
+    padding: 40px 25px;
+    text-align: center;
+    color: #707070;
+}
+.content-taka h1:nth-child(2){
+    background-color: #FFEEEE;
+    color: #FF5959;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+}
