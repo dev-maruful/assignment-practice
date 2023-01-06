@@ -135,3 +135,52 @@ section input{
     color: #707070;
 }
 
+.image-text{
+    display: flex;
+    gap: 100px;
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.text-item button{
+    display: block;
+    margin-top: 30px;
+}
+
+.text-item h1{
+    margin-bottom: 20px;
+}
+.text-item p{
+    margin-bottom: 20px;
+}
+
+.image-text img{
+    border-radius: 10px;
+}
+
+/* .subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 800px;
+    height: 200px;
+    left: 315px;
+    background: #FFF4D6;
+} */
+
+.end{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 30px 0;
+}
+.end p{
+    font-size: 12px;
+}
+
+
