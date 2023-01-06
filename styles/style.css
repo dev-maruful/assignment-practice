@@ -80,12 +80,14 @@ section form{
     text-align: center;
 }
 section input{
+    /* width: 100%; */
     border: none;
     border-bottom: 2px solid #DADADA;
     text-align: center;
     display: flex;
     align-items: center;
-    margin: 0 625px;
+    margin-left: 420px;
+    padding: 0 200px;
     font-weight: 400;
     color: #B3B3B3;
 }
