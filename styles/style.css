@@ -223,10 +223,6 @@ label button{
     color: #FF5959;
 }
 
-.hide{
-    display: none;
-}
-
 /* responsive styles */
 
 @media screen and (max-width: 576px) {
@@ -272,7 +268,7 @@ label button{
         width: 100%;
     }
     label{
-        margin: 0;
+        margin: 20px 0;
         padding: 50px 130px;
         /* width: 100%; */
         /* text-align: center; */
@@ -281,5 +277,32 @@ label button{
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
-    
+    .content-text{
+        margin-top: 50px;
+    }
+    .plan-items{
+        margin: 50px 50px;
+    }
+    .image-text{
+        flex-direction: column-reverse;
+        gap: 50px;
+        margin-bottom: 50px;
+    }
+    .content-taka{
+        margin: 0 20px;
+    }
+    .header{
+        background-image: none;
+        height: 350px;
+    }
+    .content{
+        position: relative;
+        margin: 0;
+        padding: 0 20px;
+    }
+    label{
+        /* justify-content: flex-start; */
+        margin: 20px auto;
+        /* padding: 50px 130px; */
+    }
 }
